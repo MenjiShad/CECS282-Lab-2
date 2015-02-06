@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 	
    // input validation
    while (seed <= 0) {
-	  cout << "Please enter a positive integer for the seed" << endl;
+      cout << "Please enter a positive integer for the seed" << endl;
       cin >> seed;
    }
 
